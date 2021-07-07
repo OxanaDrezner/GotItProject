@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+    <!-- TimeOut -->
+    <TimeOut>5</TimeOut>
+
+
+    <!-- Mobile General -->
+    <PlatformName>Android</PlatformName>
+    <UDID>LMG710EM210b0b9a</UDID>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+
+    <!-- New Account Form -->
+    <Email>fox84@gmail.com</Email>
+    <Name>Oxana</Name>
+    <Password>123456</Password>
+
+    <!-- New Task Form -->
+    <TaskType>Cocktails</TaskType>
+    <TaskTitle>Finish Test Cases</TaskTitle>
+    <TaskSubTask>GotItApp</TaskSubTask>
+    <TaskDay>Sat Jul 10</TaskDay>
+    <TaskHour>20</TaskHour>
+    <TaskMinutes>10</TaskMinutes>
+
+    <!-- Mobile Android -->
+    <AppPackage>com.gotit</AppPackage>
+    <AppActivity>.MainActivity</AppActivity>
+    <!-- Mobile IOS -->
+    <BundleID>native.IOS.gotit</BundleID>
+
+</Environment>
